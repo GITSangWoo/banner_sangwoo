@@ -1,7 +1,7 @@
 [project]
 name = "banner_sangwoo"
-version = "0.2.6"
-description = "banner program"
+version = "0.3.0"
+description = "banner,picture,lotto program"
 authors = [
     {name = "GITSangWoo", email = "dogcenta@gmail.com"},
 ]
@@ -13,8 +13,9 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [project.scripts]
-show-banner = 'banner_sangwoo.banner:show'
-
+sangwoo-banner = 'banner_sangwoo.banner:show'
+sangwoo-pic = 'banner_sangwoo.banner:pic'
+sangwoo-lotto = 'banner_sangwoo.banner:lotto'
 [tool.pdm]
 distribution = true
 
