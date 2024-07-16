@@ -1,6 +1,6 @@
 [project]
 name = "banner_sangwoo"
-version = "0.2.0"
+version = "0.2.1"
 description = "banner program"
 authors = [
     {name = "GITSangWoo", email = "dogcenta@gmail.com"},
@@ -16,4 +16,8 @@ license = {text = "MIT"}
 show-banner = 'banner_sangwoo.banner:show'
 
 [tool.pdm]
-distribution = true 
+distribution = true
+
+[project.urls]
+Homepage = "https://github.com/GITSangWoo/banner_sangwoo"
+Issues = "https://github.com/GITSangWoo/banner_sangwoo/issues" 
