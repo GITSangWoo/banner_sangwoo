@@ -20,15 +20,15 @@ This Project require python version 3.8 over. Use pip installer
 pip install banner-sangwoo
 ```
 
-## **USE GUIDE**
+## **How to use**
 
-type show-banner 
+just type show-banner  
  
 ```py
 show-banner
 ```
 
-thank u
+
 
 
 
